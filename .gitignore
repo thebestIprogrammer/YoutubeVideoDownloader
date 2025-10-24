@@ -1,0 +1,98 @@
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+venv_*/
+env_*/
+
+# --- Distribution / build ---
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# --- Installer / package managers ---
+*.egg-info/
+.eggs/
+
+# --- Test / coverage / type check ---
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+pytestdebug.log
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# --- IDEs & editors ---
+.vscode/
+.idea/
+
+# --- OS fayllari ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs, local data, databases ---
+*.log
+logs/
+*.sqlite3
+*.db
+*.db-journal
+
+# --- Secrets / env / config local ---
+.env
+.env.*
+.env.local
+local_settings.py
+secrets.json
+credentials.json
+
+# --- ffmpeg yoki boshqa katta binar fayllar (agar loyihada joylashtirmasangiz) ---
+ffmpeg/
+ffmpeg.exe
+ffprobe.exe
+
+# --- Download/Output folders (videolar, audio va h.k.) ---
+downloads/
+output/
+videos/
+audio/
+*.mp4
+*.mkv
+*.webm
+*.mp3
+
+# --- Temporary / cache files ---
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# --- Build artifacts from editors/OS ---
+*.class
+*.o
+*.so
+
+# --- Python packaging / lock files you may want to ignore ---
+poetry.lock
+Pipfile.lock
+
+# --- Misc ---
+coverage.xml
+*.cover
+coverage/
+node_modules/
+
+# --- Optional: keep these local files out but allow example templates ---
+!.env.example
+!.gitignore
